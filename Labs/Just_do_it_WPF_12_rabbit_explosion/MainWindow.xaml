@@ -1,0 +1,39 @@
+﻿<Window x:Class="Just_do_it_WPF_12_rabbit_explosion.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Just_do_it_WPF_12_rabbit_explosion"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid Background="#EDB3FF">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="50"/>
+            <RowDefinition Height="50"/>
+            <RowDefinition Height="125"/>
+            <RowDefinition Height="75"/>
+            <RowDefinition Height="*" />
+        </Grid.RowDefinitions>
+        
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="50" /> 
+            <ColumnDefinition Width="125" />
+            <ColumnDefinition Width="50" />
+            <ColumnDefinition Width="200" />
+            <ColumnDefinition Width="100" />
+            <ColumnDefinition Width="*" />
+        </Grid.ColumnDefinitions>
+        <Label x:Name="Label_Heading" Grid.Row ="1" Grid.Column="3" Grid.ColumnSpan="2" Content="Welcome to the rabbitplier!" FontSize="20"
+               VerticalContentAlignment="center" HorizontalContentAlignment="Center"
+               />
+        <Button x:Name="Button01_Add" Background="#C897E8" Click="Button01_Click" Content=" click here"
+                Grid.Column="1" Grid.Row="3"
+                />
+
+
+
+
+
+
+    </Grid>
+</Window>
