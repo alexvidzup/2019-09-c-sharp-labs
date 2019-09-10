@@ -63,6 +63,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "lab_20_array", "lab_20_arra
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "lab_21_collections", "lab_21_collections\lab_21_collections.csproj", "{FA6F156D-2747-469F-8247-08300C715455}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "lab_22_Northwind_db", "lab_22_Northwind_db\lab_22_Northwind_db.csproj", "{C9FD3999-6FC9-4FAD-9C18-1C2784E98809}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -189,6 +191,10 @@ Global
 		{FA6F156D-2747-469F-8247-08300C715455}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{FA6F156D-2747-469F-8247-08300C715455}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{FA6F156D-2747-469F-8247-08300C715455}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C9FD3999-6FC9-4FAD-9C18-1C2784E98809}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C9FD3999-6FC9-4FAD-9C18-1C2784E98809}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C9FD3999-6FC9-4FAD-9C18-1C2784E98809}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C9FD3999-6FC9-4FAD-9C18-1C2784E98809}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

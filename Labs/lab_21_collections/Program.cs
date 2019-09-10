@@ -8,6 +8,9 @@ namespace lab_21_collections
     {
         static void Main(string[] args)
         {
+            int[] y = new int[5];
+           
+
             // dictionary of KEY-VALUE PAIRS
             // KEY IS INDEX 0,1,2,3,4
             // VALUE IS STRING SAVED
@@ -69,6 +72,7 @@ namespace lab_21_collections
             {
                 itemList.Add($"word {n}");
                 n++;
+                itemList.Insert
             }
             
             foreach (var x in itemList)
@@ -119,6 +123,9 @@ namespace lab_21_collections
             // HashSet
             HashSet<int> itemHashSet = new HashSet<int>();
             itemHashSet.Add(5);
+
+
+            
         }
     }
 }
