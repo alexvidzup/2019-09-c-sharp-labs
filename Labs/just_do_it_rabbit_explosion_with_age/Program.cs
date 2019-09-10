@@ -12,7 +12,7 @@ namespace just_do_it_lab11_rabbit_explostion_v2
         {
             var timeCounter = new Stopwatch();
             timeCounter.Start();
-            int populationLimit = 1000;
+            int populationLimit = 10000;
             int projectedPopulation = 1;
             List<Rabbit> rabbitList = new List<Rabbit>(); // Created new rabbit list
             int rounds = 0;
@@ -49,7 +49,7 @@ namespace just_do_it_lab11_rabbit_explostion_v2
                 rounds++;
 
                 int difference = rabbitList.Count - populationBeforeReplication;
-                Console.WriteLine($"projected population:{projectedPopulation},made {difference} rabbits this round, current rabbit population: {rabbitList.Count}");
+                Console.WriteLine($"projected population:  {projectedPopulation, -3} made {difference} rabbits this round, current rabbit population: {rabbitList.Count}");
                 Thread.Sleep(200);
             }
 
