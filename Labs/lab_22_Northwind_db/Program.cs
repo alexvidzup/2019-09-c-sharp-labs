@@ -22,7 +22,12 @@ namespace lab_22_Northwind_db
                 
                 Console.WriteLine($"{p.ProductID,-2} {p.ProductName,-30} {p.UnitPrice}"));
 
-            Console.ReadLine();
+            // Products with catgegory name
+            products.ForEach(p => 
+                Console.WriteLine($"{p.ProductID,-10}{p.ProductName,-30}{p.Category.CategoryName,-20}" +
+                    $"{p.Supplier.CompanyName,-30}{p.UnitPrice}"));
+
+                Console.ReadLine();
         }
     }
 }

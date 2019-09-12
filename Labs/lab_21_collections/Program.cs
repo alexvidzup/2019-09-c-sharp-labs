@@ -19,7 +19,7 @@ namespace lab_21_collections
             dictionary.Add(0, "hi");
             dictionary.Add(1, "hi"); // exception
             dictionary.TryAdd(0, "hi");
-
+            
 
             // GET VALUES
             foreach (KeyValuePair<int, string> item in dictionary)
